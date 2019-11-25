@@ -21,4 +21,4 @@
     * 
 
 ## MVP
-- Our expected MVP for this application is for a user to be able to actually choose a category and answer gthe available questions.
+- Our expected MVP for this application is for a user to be able to choose a category and answer givin the available choices.

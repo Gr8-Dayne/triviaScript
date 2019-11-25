@@ -42,7 +42,7 @@ function showQuiz(questions, quizContainer, resultsContainer, submitButton){
 ```
 var categoryQuestions = [
 	{
-		question: "How many NBA rings did Michaele Jordan won",
+		question: "How many NBA rings did Michael Jordan earn?",
 		answers: {
 			a: '3',
 			b: '6',
@@ -51,7 +51,7 @@ var categoryQuestions = [
 		correctAnswer: 'b'
 	},
 	{
-		question: "In which year was java created",
+		question: "In which year was java created?",
 		answers: {
 			a: '1995',
 			b: '2001',
