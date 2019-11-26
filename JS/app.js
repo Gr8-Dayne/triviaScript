@@ -146,8 +146,8 @@
       
       }
 
-    }
-  }
+  //   }
+  // }
 
 //   function showScores(questions, quizContainer, scoresContainer){
 
@@ -290,44 +290,44 @@ function addTextElement(tag, attribute, value, container, text) {
     return element;
 }
 // DATA CHART
-function makeChart(){
-  var namesArray = [];
-  var scoreArray =[];
+// function makeChart(){
+//   var namesArray = [];
+//   var scoreArray =[];
 
-  // name arrays here or questions arrays
+//   // name arrays here or questions arrays
 
-  for(var i = 0; i < User.scoreArray.length; i++){
-    var score = User.scoreArray[i].clicks;
-    scoreArray.push(score);
-  }
+//   for(var i = 0; i < User.scoreArray.length; i++){
+//     var score = User.scoreArray[i].clicks;
+//     scoreArray.push(score);
+//   }
 
-  var chartContent = document.getElementById('user-chart').getContext('2d');
-  var gameChart = new chartContent(chartContent, {
-    type: 'bar',
+//   var chartContent = document.getElementById('user-chart').getContext('2d');
+//   var gameChart = new chartContent(chartContent, {
+//     type: 'bar',
 
-    data: {
-      labels: //questions arrays
-      datasets: [{
-        label: 'score',
-        backgroundColor: 'rgb(255, 99, 132)',
-        borderColor: 'rgb(255, 99, 132)',
-        data: //scoreArray,
-      }]
-    }
-    // Configuration options go here
-    options: {
-      scales: {
-        yAxes: [{
-          ticks: {
-            beginAtZero: true
-          }
-        }]
-      }
-    }
-  });
-}
+//     data: {
+//       labels: //questions arrays
+//       datasets: [{
+//         label: 'score',
+//         backgroundColor: 'rgb(255, 99, 132)',
+//         borderColor: 'rgb(255, 99, 132)',
+//         data: //scoreArray,
+//       }]
+//     }
+//     // Configuration options go here
+//     options: {
+//       scales: {
+//         yAxes: [{
+//           ticks: {
+//             beginAtZero: true
+//           }
+//         }]
+//       }
+//     }
+//   });
+// }
 
-getOptions();
+// getOptions();
 
 // respond to the click on the options
 function clickHandler(event1) {
